@@ -1,0 +1,5 @@
+basyx-python-sdk>=0.2.2
+fastapi>=0.95.0
+pydantic>=1.10
+uvicorn>=0.21.1
+requests>=2.22
