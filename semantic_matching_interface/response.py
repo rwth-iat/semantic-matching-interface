@@ -89,10 +89,8 @@ class SubmodelElementMatchingResponse(BaseResponse):
     matching_result: List[SubmodelElementMatch]
 
 
-class MatchObjectsMatchingResponse(BaseModel):
+class MatchObjectsMatchingResponse(BaseResponse):
     """
     The result of a successful `semantic_match_objects`.
     """
-    # (s-heppner 2023-04-11):
-    # Todo: This has to be specified
-    pass
+    matching_score: float
