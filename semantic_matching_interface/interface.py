@@ -76,5 +76,3 @@ class AbstractSemanticMatchingInterface:
         Returns a matching score
         """
         raise NotImplementedError
-        # (s-heppner 2023-04-11):
-        # Note that this is not defined yet

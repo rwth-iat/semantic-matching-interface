@@ -64,7 +64,5 @@ class MatchObjectsQuery(BaseModel):
     The necessary query parameters for matching two `SubmodelElement` objects
     and returning their matching score
     """
-    # (s-heppner 2023-04-11):
-    # This is not yet defined.
-    # Todo: Define parameters needed for this kind of query
-    pass
+    semantic_id_1: str
+    semantic_id_2: str
