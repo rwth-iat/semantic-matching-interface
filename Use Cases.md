@@ -45,10 +45,10 @@ The presented use cases can be classified to several specific functional require
 - [System Designer 1](#system-designer-1)
 
 ## Find a SubmodelElement with given Semantic (inside a given AAS) 
-- [System Designer 2](#SysDesign2)
-- [Submodel Templates](#SubmodelTemplates)
-- [Data Integration](#DataIntegration)
+- [System Designer 2](#system-designer-2)
+- [Submodel Templates](#submodel-templates)
+- [Data Integration](#data-integration)
 
 ## Are Properties A and B semantically equivalent?
-- [Matching of Skills](#Skills)
-- [Data Analysis](#DataAnalysis)
+- [Matching of Skills](#matching-of-skills)
+- [Data Analysis](#data-analysis)
