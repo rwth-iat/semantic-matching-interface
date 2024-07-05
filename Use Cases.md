@@ -20,6 +20,12 @@ In this example, a company that has created proprietary AAS submodels for its pr
 All the required information may already be available in the proprietary submodels, but not in the standardised form and can therefore be converted to the form of the submodel template. 
 Semantic matching is required to check conformity and possibly even to automatically transfer the submodel instances into the standardised form specified by the submodel template.
 
+## Harmonization of Semantic Catalogues
+Semantic Catalogues, such as ECLASS or the IEC 61360-4 Common Data Dictionary contain semantic definitions. 
+These catalogues may have overlaps in their definition space, however may also slightly differ in the specifics of their definition.
+Harmonization is an ongoing process between these catalogues, where their definitions are compared and adapted to each other. 
+This process can be simplified by methods of semantic matching. 
+
 ## Data Integration
 
 A similar use case is the transfer of data, which is available in non-standardised form but with semantic annotations, into AAS submodels if the semantic annotations and the `semanticIds` of the submodels can be semantically matched.
@@ -36,6 +42,10 @@ With a heterogeneous semantic description of capabilities, semantic matching is 
 This example deals with the automated application of data pre-processing algorithms. 
 A data analyst has a series of algorithms for data preprocessing that are equipped with a semantic description. 
 If they now wants to find out which algorithm can be applied to a data series with semantically described metadata, they also needs semantic matching for this. 
+
+## Matching between Information Models
+Information models, such as Asset Administration Shell Submodels and OPC UA Companion Specifications may contain similar information, however modeled slightly differently.
+Semantic Matching can be the first step for transforming information in one model to the information in another. 
 
 # Classification of Use Cases
 
